@@ -1,0 +1,180 @@
+
+/* HEADER STYLING */
+header{
+	
+}
+
+	header h2 {
+		background-color: #ffffff;
+		font-family: 'League Gothic', sans-serif;
+		line-height: 23px;
+		margin: 0;
+		padding: 0 20px;
+		position: absolute;
+		text-transform: uppercase;
+	}
+
+	header .container {
+		position: relative;
+	}
+
+.nav-pills {
+	position: fixed;
+	top:150px;
+	width: 120px;
+}
+
+#carousel-winners-info {
+	background-color: white;
+	height: 109px;
+	width: 281px;
+	position: absolute;
+	right: 23px;
+	top: 311px;
+	font-family: 'League Gothic', sans-serif;
+
+}
+
+	#carousel-winners-info .item {
+		padding: 50px 30px;
+	}
+
+.comic-strip {
+	height: 123px;
+}
+
+footer.comic-strip {
+	background-image: url(../img/BannerBottom.jpg);
+}
+
+header.comic-strip {
+	background-image: url(../img/BannerExtend.gif);
+}
+
+	header.comic-strip .container:hover {
+		background-image: url(../img/Banner_Over.gif);
+		height: 123px;
+	}
+
+		header.comic-strip .container:hover img {
+			display: none;
+		}
+
+section{
+	margin: 46px 0;
+}
+
+section header {
+	color: #626166;
+	height:23px;
+	margin-bottom: 46px;
+}	
+
+	section.judges header {
+		background-image: url(../img/YellowBand.gif);
+	}
+
+		section.judges header h2{
+			left:50%;
+		}
+
+	section.judges h3 {
+		text-transform: uppercase;
+		font-family: 'League Gothic', sans-serif;
+		font-size: 3.0em;
+		color: #09B0A0;
+	}
+
+	section.judges h4 {
+		text-transform: uppercase;
+		font-family: 'League Gothic', sans-serif;
+		font-size: 1.3em;
+		color: #F56C00;
+	}
+
+	section.behind-scenes header{
+		background-image: url(../img/RedBand.gif);
+	}
+
+		section.behind-scenes header h2{
+			left:0;
+		}
+
+	section.sponsors header{
+		background-image: url(../img/BlueBand.gif);
+	}
+
+		section.sponsors header h2{
+			right:10%;
+		}
+
+/* PRIMARY */
+
+.primary{
+	position: relative;
+}
+
+	.primary .container{
+		position: relative;
+	}
+
+	.primary a.winners{
+		position: absolute;
+		right:0;
+		top:116px;
+	}
+
+	.primary .winners-extend{
+		height:172px;
+		padding-left:50%;
+		position: absolute;
+		top:116px;
+		width: 100%;
+	}
+
+	.primary .winners-extend .background {
+		background-image: url(../img/WinnersExtend.gif);
+		height:172px;
+		margin-left:480px;
+	}
+
+.viewport-padding{
+	padding: 0 20px;
+	position: relative;
+}
+
+	.viewport-padding .viewport{
+		border-left:1px solid #CCC;
+		border-right:1px solid #CCC;
+		overflow: hidden;
+	}
+
+		.viewport-padding .viewport a{
+			padding: 0 10px 0 0;
+		}
+
+	.viewport-padding .sliding-bit{
+		width:10000px;
+	}
+
+	.viewport-padding .arrow{
+		position:absolute;
+		top:30px;
+	}
+
+	.viewport-padding .arrow.left{
+		left:0;
+	}
+
+	.viewport-padding .arrow.right{
+		right:0;
+	}
+
+
+@media (min-width: 1200px){
+	.container {
+		width: 960px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
