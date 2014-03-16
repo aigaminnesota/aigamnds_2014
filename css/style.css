@@ -18,12 +18,6 @@ header{
 		position: relative;
 	}
 
-.nav-pills {
-	position: fixed;
-	top:150px;
-	width: 120px;
-}
-
 #carousel-winners-info {
 	background-color: white;
 	height: 109px;
@@ -168,6 +162,41 @@ section header {
 
 	.viewport-padding .arrow.right{
 		right:0;
+	}
+
+/* ----- LIST PAGE ----- */
+/* first of every 3 */
+#sections section:nth-child(3n+1) header {  
+	background-image: url("../img/YellowBand.gif");
+}
+
+	#sections section:nth-child(3n+1) header h2 {  
+		left: 50%;
+	}
+
+/* second of every 3 */
+#sections section:nth-child(3n+2) header {  
+	background-image: url("../img/RedBand.gif");
+}
+
+/* third of every 3 */
+#sections section:nth-child(3n+3) header {  
+	background-image: url("../img/BlueBand.gif");
+}
+
+	#sections section:nth-child(3n+3) header h2 {  
+		right: 10%;
+	}
+
+.entries{
+	list-style: none;
+	padding:0;
+}
+
+	.entries li{
+		height:240px;
+		padding:0;
+		width:240px;
 	}
 
 
