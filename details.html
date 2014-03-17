@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2014 AIGA Minnesota Design Show</title>
+
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="webfonts/stylesheet.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	
+	<header class="comic-strip">
+		<div class="container">
+			<img src="img/header.jpg" alt="Show Me Yours Show You Mine: AIGA Design Show 2014" />
+		</div>
+	</header>
+	
+	<div class='container'>
+
+		<ul class="nav navbar-nav">
+        	<li>
+        		<a href="#">Prev Entry</a>
+        	</li>
+        	<li>
+        		<a href="#">Categories</a>
+        	</li>
+        	<li>
+        		<a href="#">Next Entry</a>
+        	</li>
+    	</ul>
+
+    	<div class='clearfix'></div>
+
+		<div id="carousel-winners" class="carousel slide" data-ride="carousel">
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="http://lorempixel.com/960/540/people/1/" alt="">
+					<div class="carousel-caption">
+					
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="http://lorempixel.com/960/540/people/5/" alt="">
+					<div class="carousel-caption">
+					
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="http://lorempixel.com/960/540/people/9/" alt="">
+					<div class="carousel-caption">
+					
+					</div>
+				</div>
+				
+			</div>
+
+		</div> 
+
+		<div class='row'>
+			
+			<div class='col-sm-6'>
+				
+				<section id="delivery">
+
+					<header class="header">
+						<div class="container">
+							<h2>Delivery</h2>
+						</div>
+					</header>
+					
+				</section>
+				
+				<section id="credits">
+
+					<header class="header">
+						<div class="container">
+							<h2>Credits</h2>
+						</div>
+					</header>
+					
+				</section>
+			</div>
+
+			<div class='col-sm-6'>
+				<section id="concept">
+
+					<header class="header">
+						<div class="container">
+							<h2>Concept</h2>
+						</div>
+					</header>
+					
+				</section>
+
+				<section id="results">
+
+					<header class="header">
+						<div class="container">
+							<h2>Results</h2>
+						</div>
+					</header>
+					
+				</section>
+			</div>
+
+		</div> <!-- end .row -->
+
+		<ul class="nav navbar-nav">
+        	<li>
+        		<a href="#">Prev Entry</a>
+        	</li>
+        	<li>
+        		<a href="#">Categories</a>
+        	</li>
+        	<li>
+        		<a href="#">Next Entry</a>
+        	</li>
+    	</ul>
+
+	</div> <!-- end .container -->
+
+	<footer class="comic-strip"></footer>
+	
+
+	<!-- scripts -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+	<script src="js/shared.js"></script>
+
+	<script>
+		$('#carousel-winners').on('slid.bs.carousel', function () {
+			console.log('sliding...');
+			$('#carousel-winners-info').next();
+		});
+	</script>
+
+</body>
+</html>
