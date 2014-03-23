@@ -305,6 +305,20 @@ section header {
 	}
 
 
+/* ----- DETAILS PAGE ----- */
+
+section#delivery .header{
+	background-image: url("../img/YellowBand.gif");
+}
+
+#entry-nav {
+	font-family: 'League Gothic',sans-serif;
+}
+
+section#credits .header {
+	background-image: url("../img/RedBand.gif");
+}
+
 /* ----- MEDIA QUERIES ----- */
 
 
