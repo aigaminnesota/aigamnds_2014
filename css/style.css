@@ -18,6 +18,26 @@ header{
 		position: relative;
 	}
 
+#scrollUp {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    bottom: 5px;
+    color: #F58220;
+    font-size: 50px;
+    line-height: 100%;
+    padding: 5px;
+    right: 20px;
+}
+
+	#scrollUp:hover,
+	#scrollUp:focus{
+		text-decoration:none;
+	}
+
+	#scrollUp:before{
+		content:"\e133"; /* up arrow in circle*/
+		font-family: 'Glyphicons Halflings';
+	}
+
 #carousel-winners-info {
 	background-color: white;
 	height: 109px;
