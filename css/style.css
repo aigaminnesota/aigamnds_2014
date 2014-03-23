@@ -86,6 +86,14 @@ section header {
 		color: #F56C00;
 	}
 
+	section.judges span {
+		color: #09B0A0;
+	}
+
+	section.judges img {
+		width: 224px;
+	}
+
 	section.behind-scenes header{
 		background-image: url(../img/RedBand.gif);
 	}
@@ -214,7 +222,7 @@ section header {
 @media (max-width: 992px) {
 	header.comic-strip {
 		background-image: none;
-		height: 118px;
+		height: auto;
 	}
 
 		header.comic-strip .container {
@@ -224,9 +232,12 @@ section header {
 		}
 
 			header.comic-strip .container:hover {
-				background-image: url("../img/header.jpg");
-				height: 118px;
+				background-image: none;
 			}
+
+			header.comic-strip .container:hover img {
+			display: inherit;
+		}
 
 		header.comic-strip img {
 			width: 100%;
@@ -247,7 +258,7 @@ section header {
 	}
 
 	.winners {
-		margin-top: 340px;
+		margin-top: 270px;
 	}
 
 	#carousel-winners-info {
@@ -268,6 +279,39 @@ section header {
 }
 
 @media (max-width: 768px) {
+	.winners {
+		margin-top: 65px;
+	}
+
+		.winners img {
+			width: 200px;
+		}
+
+	#carousel-winners {
+		margin-bottom: 45px;
+	}
+
+	section.judges .col-md-3 {
+		height: 190px;
+	}
+
+	section.judges img {
+		width: 180px;
+	}
+
+	section.judges h3 {
+		font-size: 1.8em;
+		margin: 0 0 0 0;
+	}
+
+	section.judges h4 {
+		font-size: 1.0em;
+		margin: 0 0 0 0;
+	}
+
+	section.judges p {
+		font-size: 0.8em;
+	}
 
 }
 
