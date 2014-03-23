@@ -6,6 +6,7 @@ shared.init = function(){
 
 shared.addListeners = function(){
     shared.addBtsSmoothScrolling();
+    $("img").unveil();
 }
 
 
@@ -31,4 +32,6 @@ shared.addBtsSmoothScrolling = function(){
     });
 }
 
-shared.init();
+$(document).ready(function() {
+    shared.init();
+});
