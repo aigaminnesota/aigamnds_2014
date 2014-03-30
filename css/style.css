@@ -327,17 +327,52 @@ section header {
 
 /* ----- DETAILS PAGE ----- */
 
+.entry-nav {
+	font-family: 'League Gothic',sans-serif;
+	font-size: 24px;
+	padding: 23px 15px;
+	text-transform: uppercase;
+}
+
+	.entry-nav a {
+		color:#f58220;
+	}
+
+	.entry-nav span {
+		color: #09B0A0;
+	}
+
 section#delivery .header{
 	background-image: url("../img/YellowBand.gif");
 }
 
-#entry-nav {
-	font-family: 'League Gothic',sans-serif;
-}
+	section#delivery .header h2 {
+		margin-left: 250px;
+	}
 
 section#credits .header {
 	background-image: url("../img/RedBand.gif");
 }
+
+	section#credits .header h2 {
+		margin-left: 40px;
+	}
+
+section#concept .header {
+	background-image: url("../img/BlueBand.gif");
+}
+
+	section#concept .header h2 {
+		margin-left: 100px;
+	}
+
+section#results .header {
+	background-image: url("../img/YellowBand.gif");
+}
+
+	section#results .header h2 {
+		margin-left: 150px;
+	}
 
 /* ----- MEDIA QUERIES ----- */
 
