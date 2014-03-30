@@ -77,7 +77,7 @@ header.comic-strip {
 
 	header.comic-strip .container:hover {
 		background-image: url(../img/Banner_Over.gif);
-		height: 123px;
+		height: 100%;
 	}
 
 		header.comic-strip .container:hover img {
@@ -292,28 +292,20 @@ section header {
 		.entries a .info{
 			background: rgba(0,0,0,0.2);
 			left:0;
-			height:100%;
-			opacity:0.5;
+			height:240px;
+			opacity:0.35;
 			overflow:hidden;
 			padding:17px;
 			position:absolute;
 			text-overflow:ellipsis;
 			top:0;
 			transition: all 0.5s;
-			width:100%;
+			width:240px;
 		}
 
 			.entries a:hover .info,
 			.entries a:focus .info{
-				left:0;
-				height:100%;
 				opacity:1;
-				overflow:hidden;
-				padding:17px;
-				position:absolute;
-				text-overflow:ellipsis;
-				top:0;
-				width:100%;
 			}
 
 	.entries h2{
@@ -565,6 +557,7 @@ section#results .header-extend {
 }
 
 @media (max-width: 768px) {
+
 	.winners {
 		margin-top: 65px;
 	}
@@ -599,20 +592,75 @@ section#results .header-extend {
 		font-size: 0.8em;
 	}
 
+	header.comic-strip .container:hover {
+	    background-image: none;
+	    height: inherit;
+	}
+
 	/* LIST PAGE */
+	.WinnerBanner{
+		background: url("../img/WinnerBanner.gif") repeat scroll center center / auto 100% rgba(0, 0, 0, 0);
+		height: 36px;
+		margin: 25px 0 3px;
+	}
+
 	.entries li {
-	    height: 240px;
+	    height: 120px;
 	    padding: 0;
+	    margin-bottom:5px;
 	    width: 100%;
 	}
 
-	.entries a .info{
-		left:240px;
-	}
+		.entries li h2{
+			color:#f58220;
+			font-size:27px;
+			margin-bottom:2px;
+		}
+
+		.entries li h3{
+			color:#00af9d;
+			font-size:20px; 
+		}
+
+		.entries li img{
+			height:120px;
+			width:120px;
+		}
+
+		.entries li .info{
+			background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+			height: 120px;
+			left: 0;
+			opacity:1;
+			padding: 15px 10px 10px 130px;
+			width: 100%;
+		}
+
+			.entries li:nth-child(even) img{
+				right:0;
+				position:absolute;
+			}
+
+			.entries li:nth-child(even) .info{
+				padding: 15px 130px 10px 10px;
+				text-align: right;
+			}
 
 	#sections .container{
 		overflow-x: hidden;
 	}
 
-}
+	#sections header .container{
+		height:23px;
+		overflow: hidden;
+	}
 
+	#sections header h2{
+		padding: 2px 20px 0;
+	}
+
+	#sections section{
+		margin: 36px 0;
+	}
+
+}
