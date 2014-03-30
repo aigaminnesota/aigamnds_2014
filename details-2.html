@@ -11,6 +11,8 @@
 </head>
 
 <body>
+
+<div class="wrapper">
 	
 	<header class="comic-strip">
 		<div class="container">
@@ -25,40 +27,76 @@
 				<a href="#">Prev. Entry</a><span> | </span><a href="#">Categories</a><span> | </span><a href="#">Next Entry</a>
 			</div>
 		</div>
+	</div>
 
-		<div id="carousel-winners" class="carousel slide" data-ride="carousel">
+	<div class="arrow-wrapper-left">
+		<div class="slider-arrow" id="left-arrow">
+			<img src="img/LeftArrow.gif" />
+		</div>
+	</div>
 
-			<!-- Wrapper for slides -->
-			<div class="carousel-inner">
-				<div class="item active">
-					<img src="http://lorempixel.com/960/540/people/1/" alt="">
-					<div class="carousel-caption">
-					
+	<div class="container">
+
+		<div class="row">
+
+			<section id="slider">
+
+				<div id="carousel-winners" class="carousel slide" data-ride="carousel">
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="http://lorempixel.com/960/540/people/1/" alt="">
+							<div class="carousel-caption">
+							
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="http://lorempixel.com/960/540/people/5/" alt="">
+							<div class="carousel-caption">
+							
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="http://lorempixel.com/960/540/people/9/" alt="">
+							<div class="carousel-caption">
+							
+							</div>
+						</div>
+						
 					</div>
-				</div>
 
-				<div class="item">
-					<img src="http://lorempixel.com/960/540/people/5/" alt="">
-					<div class="carousel-caption">
-					
-					</div>
-				</div>
+				</div> 
 
-				<div class="item">
-					<img src="http://lorempixel.com/960/540/people/9/" alt="">
-					<div class="carousel-caption">
-					
-					</div>
-				</div>
-				
-			</div>
+			</section>
 
-		</div> 
+		</div>
+
+	</div><!--End Container!-->
+	
+	<div class="arrow-wrapper-right">
+		<div class="slider-arrow" id="right-arrow">
+			<img src="img/RightArrow.gif" />
+		</div>
+	</div>
+
+	<div class="container">
 
 		<div class="row">
 
 			<div class="col-md-6">
+				
+				<section id="entry-info">
+					<img src="img/JudgesChoice.gif" />
+					<h2>Design Month 2013<br>
+					Campaign <img src="img/ViewLink.gif" /></h2>
+					<h3>Branding<span> | </span>By Target</h3>
+				</section>
+
 				<section id="delivery">
+					<div class="header-extend"></div>
 					<header class="header">
 						<h2>Delivery</h2>
 					</header>
@@ -70,6 +108,7 @@
 				</section>
 
 				<section id="credits">
+					<div class="header-extend"></div>
 					<header class="header">
 						<h2>Credits</h2>
 					</header>
@@ -82,6 +121,7 @@
 			
 			<div class="col-md-6">
 				<section id="concept">
+					<div class="header-extend"></div>
 					<header class="header">
 						<h2>Concept</h2>
 					</header>
@@ -92,6 +132,7 @@
 				</section>
 
 				<section id="results">
+					<div class="header-extend"></div>
 					<header class="header">
 						<h2>Results</h2>
 					</header>
@@ -113,6 +154,8 @@
 	</div>
 
 	<footer class="comic-strip"></footer>
+
+</div><!--End Wrapper!-->
 	
 
 	<!-- scripts -->
